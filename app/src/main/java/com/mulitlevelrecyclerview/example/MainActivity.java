@@ -1,18 +1,14 @@
 package com.mulitlevelrecyclerview.example;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.Toolbar;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.appcompat.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.LinearLayout;
-import android.widget.Toast;
 
 import com.mulitlevelrecyclerview.R;
 import com.multilevelview.MultiLevelRecyclerView;
-import com.multilevelview.OnRecyclerItemClickListener;
 import com.multilevelview.models.RecyclerViewItem;
 
 import java.util.ArrayList;
